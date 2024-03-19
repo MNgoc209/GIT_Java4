@@ -22,7 +22,7 @@
     <div class="container-fluid">
         <a class="navbar-brand" href="/BTVN_B2_war_exploded/ban-hang/index">
             <img src="../img/tap1.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-            TR & RH
+            TR & RH --- Tokyo Revengers
         </a>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
