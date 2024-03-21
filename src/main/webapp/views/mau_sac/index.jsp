@@ -32,8 +32,8 @@
             <td>${ms.tenMS}</td>
             <td>${ms.trangThai==0? "Inactive":"Active"}</td>
             <td>
-                <a href="/BTVN_B2_war_exploded/mau-sac/edit?maMS=${ms.maMS}" class="btn btn-outline-success">Update</a>
-                <a href="/BTVN_B2_war_exploded/mau-sac/delete?maMS=${ms.maMS}" class="btn btn-outline-danger">Delete</a>
+                <a href="/BTVN_B2_war_exploded/mau-sac/edit?id=${ms.id}" class="btn btn-outline-success">Update</a>
+                <a href="/BTVN_B2_war_exploded/mau-sac/delete?id=${ms.id}" class="btn btn-outline-danger">Delete</a>
             </td>
         </tr>
     </c:forEach>

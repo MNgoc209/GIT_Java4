@@ -1,26 +1,36 @@
 package entities;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "MauSac")
 public class MauSac {
-    private int id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ID")
+    private Integer id;
+    @Column(name = "Ma")
     private String maMS;
+    @Column(name = "Ten")
     private String tenMS;
+    @Column(name = "TrangThai")
     private int trangThai;
 
     public MauSac() {
     }
 
-    public MauSac(int id, String maMS, String tenMS, int trangThai) {
+    public MauSac(Integer id, String maMS, String tenMS, int trangThai) {
         this.id = id;
         this.maMS = maMS;
         this.tenMS = tenMS;
         this.trangThai = trangThai;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
